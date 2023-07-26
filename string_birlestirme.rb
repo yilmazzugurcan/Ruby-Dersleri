@@ -1,10 +1,15 @@
 isim="uğurcan"
 soy_isim="yılmaz"
 
-puts isim+soy_isim
+#puts isim + soy_isim
 
-puts isim << soy_isim<<",Ruby Dersleri" #soy_ismi isme yerleştir.(
+#puts isim +" "+soy_isim
 
-puts isim.concat(soy_isim) #iki değişkeni tek değişken haline getirir concat metodu
+#puts isim << soy_isim <<",Ruby dersleri"
+#soy ismi isme yerleştir demektir << işareti
 
-puts isim.prepend(soy_isim)#prepend metodu soy_isim değişkenini ismin başına ekler.
+#puts isim.concat(soy_isim)
+#puts isim
+
+puts isim.prepend(soy_isim)
+puts isim
